@@ -1,0 +1,83 @@
+:root{
+    --clr-primary: rgba(72, 72, 192, 0.8);
+    --clr-secondary: rgba(147, 147, 206, 0.7);
+    --clr-darker: rgba(24, 24, 58, 0.7);
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+body{
+    margin: 0px;
+
+    background-image: linear-gradient(115deg,rgba(72, 72, 192, 0.8),rgba(147, 147, 206, 0.7)), 
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+#survey-form{
+    background-color: var(--clr-darker);
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+
+    margin: 15px 0px;
+}
+
+.form-text {
+    margin-bottom: 10px;
+}
+
+#name, #email, #number,#input, #dropdown{
+    height: 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    padding: 6px 15px;
+
+    color: #495057;
+}
+
+#dropdown{
+    height: 2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    transform: scale(1.5);
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+#comment-form{
+    min-height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#submit-form{
+    background-color: rgb(55, 175, 101);
+    font-size: 1rem;
+    color: white;
+
+    border: 1px solid rgb(55, 175, 101);
+    border-radius: 0.125rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
