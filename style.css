@@ -69,7 +69,7 @@ input[type="radio"], input[type="checkbox"]{
     font-size: 1rem;
 }
 
-#submit-form{
+#submit{
     background-color: rgb(55, 175, 101);
     font-size: 1rem;
     color: white;
